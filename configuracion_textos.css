@@ -1,0 +1,204 @@
+/*
+╔══════════════════════════════════════════════════════════════╗
+║      ARCHIVO DE CONFIGURACIÓN DE TEXTOS — ZONA 02           ║
+║      Taller de Colegiado Directivo 2025-2026                ║
+║                                                              ║
+║  INSTRUCCIONES:                                              ║
+║  Cambie SOLO el número antes de "rem"                        ║
+║  Guarde el archivo (Ctrl+S)                                  ║
+║  Refresque el navegador (F5)                                 ║
+║                                                              ║
+║  REFERENCIA DE TAMAÑOS:                                      ║
+║  0.60rem = muy pequeño (11px)                               ║
+║  0.75rem = pequeño     (13px)                               ║
+║  0.90rem = normal      (16px)                               ║
+║  1.10rem = mediano     (20px)                               ║
+║  1.40rem = grande      (25px)                               ║
+║  1.80rem = muy grande  (32px)                               ║
+╚══════════════════════════════════════════════════════════════╝
+*/
+
+/* ─────────────────────────────────────────
+   ENCABEZADO
+───────────────────────────────────────── */
+
+/* Textos institucionales pequeños
+   (Dirección de Educación Secundaria / Zona Escolar 02) */
+.hinst { font-size: 0.75rem; }
+
+/* Título principal del encabezado
+   (Taller de Colegiado Directivo / De la Cordialidad...) */
+.htitle { font-size: 1.50rem; }
+
+/* Ciclo Escolar 2025–2026 */
+.hsub { font-size: 0.80rem; }
+
+/* Pastilla dorada (⏱ 3 Horas · 180 Min) */
+.hbadge { font-size: 0.75rem; }
+
+
+/* ─────────────────────────────────────────
+   BARRA INFERIOR CON SUS DATOS
+───────────────────────────────────────── */
+
+/* Ernesto Javier Estrella Alcocer · Jefe de Enseñanza... */
+.author-bar span { font-size: 0.80rem; }
+
+
+/* ─────────────────────────────────────────
+   NAVEGACIÓN (pestañas superiores)
+───────────────────────────────────────── */
+
+/* Panorama / Redacción / Protocolo / Acuerdos */
+.ntab { font-size: 0.88rem; }
+
+
+/* ─────────────────────────────────────────
+   ENCABEZADOS DE CADA BLOQUE
+───────────────────────────────────────── */
+
+/* Etiqueta pequeña (Bloque 1 · 60 minutos) */
+.bh-tag { font-size: 0.70rem; }
+
+/* Título del bloque (Redacción y Autodiagnóstico) */
+.bh-title { font-size: 1.40rem; }
+
+/* Descripción del bloque */
+.bh-desc { font-size: 0.95rem; }
+
+/* Pastilla de tiempo (⏱ 60 min) */
+.bh-time { font-size: 0.80rem; }
+
+
+/* ─────────────────────────────────────────
+   TARJETAS (FORMATO 1, 2, 3, 4A, 4B...)
+───────────────────────────────────────── */
+
+/* Título de tarjeta (FORMATO 1 — Relato de la 6ª Sesión...) */
+.cht { font-size: 1.00rem; }
+
+/* Subtítulo de tarjeta (en cursiva, debajo del título) */
+.chs { font-size: 0.90rem; }
+
+
+/* ─────────────────────────────────────────
+   FORMULARIOS
+───────────────────────────────────────── */
+
+/* Etiquetas de campos (ESCUELA, DIRECTIVO, FECHA...) */
+label { font-size: 0.76rem; }
+
+/* Texto dentro de los campos de captura */
+input[type=text], input[type=date], input[type=email],
+textarea, select { font-size: 0.95rem; }
+
+/* Texto de ayuda en cursiva bajo los campos */
+.fhint { font-size: 0.80rem; }
+
+
+/* ─────────────────────────────────────────
+   BOTONES
+───────────────────────────────────────── */
+
+/* Todos los botones de acción */
+.btn { font-size: 0.90rem; }
+
+
+/* ─────────────────────────────────────────
+   CAJAS DE CONSEJO (fondo dorado)
+───────────────────────────────────────── */
+
+/* Texto dentro de las cajas con borde dorado izquierdo */
+.tip { font-size: 0.90rem; }
+
+
+/* ─────────────────────────────────────────
+   SEMÁFORO DEL RELATO
+───────────────────────────────────────── */
+
+/* Título de sección (Sección 1: Planeación...) */
+.sem-title { font-size: 1.00rem; }
+
+/* Indicadores en cursiva bajo el título */
+.sem-ind { font-size: 0.85rem; }
+
+/* Nombre del nivel (Verde-Óptimo / Amarillo / Rojo) */
+.sc-name { font-size: 0.90rem; }
+
+/* Descripción de cada nivel del semáforo */
+.sc-desc { font-size: 0.85rem; }
+
+
+/* ─────────────────────────────────────────
+   CRONÓMETRO PAC
+───────────────────────────────────────── */
+
+/* Números grandes del tiempo (10:00) */
+.tdisp { font-size: 3.00rem; }
+
+/* Nombre de la etapa (Exposición del Relato...) */
+.tstage { font-size: 1.00rem; }
+
+/* Pastillas de etapas (Exposición / Clarificación...) */
+.tchip { font-size: 0.75rem; }
+
+/* Instrucciones por etapa (texto en el área oscura) */
+.ti-text { font-size: 0.88rem; }
+
+
+/* ─────────────────────────────────────────
+   BANCO DE PREGUNTAS
+───────────────────────────────────────── */
+
+/* Texto de cada pregunta en Bloque 2 */
+.bq-txt { font-size: 1.10rem; }
+
+/* Texto de cada pregunta seleccionable en Bloque 3 */
+.sel-q { font-size: 1.10rem; }
+
+
+/* ─────────────────────────────────────────
+   TARJETAS DEL PANORAMA
+───────────────────────────────────────── */
+
+/* Número grande (60' / 80' / 40') */
+.ov-num { font-size: 2.00rem; }
+
+/* Título de tarjeta del panorama */
+.ov-title { font-size: 0.95rem; }
+
+/* Descripción de tarjeta del panorama */
+.ov-desc { font-size: 0.80rem; }
+
+
+/* ─────────────────────────────────────────
+   FIRMAS
+───────────────────────────────────────── */
+
+/* Rol (Directivo / Vo.Bo. Supervisor) */
+.firma-role { font-size: 0.76rem; }
+
+/* Nombre bajo la línea de firma */
+.firma-name { font-size: 0.82rem; }
+
+
+/* ─────────────────────────────────────────
+   TABLAS (PAC y Minuta)
+───────────────────────────────────────── */
+
+/* Encabezados de columna en tablas */
+.pac-tbl th, .min-tbl th { font-size: 0.85rem; }
+
+/* Texto de celda en tabla PAC */
+.pac-tbl td:first-child { font-size: 0.88rem; }
+
+
+/* ─────────────────────────────────────────
+   TEXTO DE CIERRE
+───────────────────────────────────────── */
+
+/* Título "Taller Concluido" */
+.tf-title { font-size: 1.50rem; }
+
+/* Párrafo de cierre */
+.tf-desc { font-size: 0.90rem; }
